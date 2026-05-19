@@ -1,0 +1,26 @@
+---
+const links = [
+  { href: '/',                label: 'Home' },
+  { href: '/background',      label: 'Background' },
+  { href: '/program',         label: 'Program' },
+  { href: '/organizers',      label: 'Organizers' },
+  { href: '/references',      label: 'References' },
+  { href: '/position-papers', label: 'Position Papers' },
+  { href: '/apply',           label: 'Apply' },
+];
+const { pathname } = Astro.url;
+const norm = (p: string) => (p.length > 1 && p.endsWith('/') ? p.slice(0, -1) : p);
+const current = norm(pathname);
+---
+<nav>
+  <a href="/" class="site-title">Infrastructure @ CSCW'26</a>
+  <ul>
+    {links.map(l => (
+      <li>
+        <a href={l.href} aria-current={current === norm(l.href) ? 'page' : undefined}>
+          {l.label}
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>

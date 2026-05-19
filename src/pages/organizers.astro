@@ -1,0 +1,95 @@
+---
+import Page from '../layouts/Page.astro';
+
+// To swap a headshot: drop an image file (JPG, PNG, WebP, or SVG) into
+// public/organizers/ and update that organizer's `photo` path below.
+// Example: photo: '/organizers/joel-chan.jpg'
+const PLACEHOLDER_PHOTO = '/organizers/placeholder.svg';
+
+const organizers = [
+  {
+    name: 'Joel Chan',
+    affiliation: 'University of Maryland',
+    email: 'joelchan@umd.edu',
+    website: 'https://joelchan.me',
+    photo: '/organizers/headshot-joel.jpg',
+    bio: `Associate Professor in the College of Information and Associate Director of the Human-Computer Interaction Lab at the University of Maryland, College Park. His research and teaching work to enable a future where informed innovation is accessible to everyone, with a focus on human-centered design of novel information systems — such as search engines and knowledge management systems — in the domains of scientific discovery and design.`,
+  },
+  {
+    name: 'Charlotte P. Lee',
+    affiliation: 'University of Washington',
+    email: 'cplee@uw.edu',
+    website: '#',
+    photo: PLACEHOLDER_PHOTO,
+    bio: `Professor in the Department of Human Centered Design & Engineering and Adjunct Professor at the Information School of the University of Washington. Dr. Lee researches collaboration in the development of infrastructures, including data-intensive science. Her work focuses on empirically describing and theorizing information and coordination practices, artifacts, and collaborative structures, in service of more humane, equitable, and empirically informed design, development, and sustainability of platform ecosystems.`,
+  },
+  {
+    name: 'James D. Herbsleb',
+    affiliation: 'Carnegie Mellon University',
+    email: 'jdh@cs.cmu.edu',
+    website: '#',
+    photo: PLACEHOLDER_PHOTO,
+    bio: `Professor in the Software and Societal Systems Department in the School of Computer Science at Carnegie Mellon University. His research interests lie primarily in the intersection of software engineering, computer-supported cooperative work, and socio-technical systems, focusing on areas such as geographically distributed development teams and large-scale open source development. He holds a PhD in psychology and an MS in computer science.`,
+  },
+  {
+    name: 'Irene V. Pasquetto',
+    affiliation: 'University of Maryland',
+    email: 'irenevp@umd.edu',
+    website: '#',
+    photo: PLACEHOLDER_PHOTO,
+    bio: `A scholar in the field of information and communication studies. Her research explores contemporary knowledge production practices, with a focus on how digital technologies shape and mediate them. Her most recent work centers on knowledge production in the context of open science and public participation in science. She is an Assistant Professor at the University of Maryland College of Information and a Senior Research Fellow at the Shorenstein Center on Media, Politics, and Public Policy at the Harvard Kennedy School, where she co-founded the Harvard Kennedy School Misinformation Review in 2019.`,
+  },
+  {
+    name: 'Erin Robinson',
+    affiliation: 'Metadata Game Changers',
+    email: 'erin@metadatagamechangers.com',
+    website: '#',
+    photo: PLACEHOLDER_PHOTO,
+    bio: `Information scientist, infrastructure designer, and facilitator. For nearly 20 years she has worked across sectors on Earth and environmental science data challenges, primarily related to connecting downstream data users to providers. She is currently the CEO of Metadata Game Changers, a small consultancy, and works with place-based organizations like biological field stations, co-developing and deploying sociotechnical infrastructure (open tools and software) to connect research outputs back to "place" and support more ethical fieldwork.`,
+  },
+  {
+    name: 'Ronen Tamari',
+    affiliation: 'Cosmik',
+    email: 'ronen@cosmik.network',
+    website: '#',
+    photo: PLACEHOLDER_PHOTO,
+    bio: `Researcher and entrepreneur working on collective intelligence systems to help us think better, together. He co-founded Cosmik, where they are working on new kinds of social networks for collective sensemaking — with a particular focus on science: how can we integrate social networks into the research lifecycle to improve curation, discovery, and knowledge synthesis? They are currently building Semble, a new social knowledge network for researchers on ATProto.`,
+  },
+  {
+    name: 'Anissa Tanweer',
+    affiliation: 'University of Washington',
+    email: 'tanweer@uw.edu',
+    website: '#',
+    photo: PLACEHOLDER_PHOTO,
+    bio: `Senior Social Scientist at the University of Washington’s eScience Institute. She uses qualitative methods to study the practice and culture of computationally-mediated research, and collaborates with scientists on the design and implementation of training and development programs in data-intensive academic research. Trained as a communication scholar, she is particularly interested in probing the intersection of organization, ethics, and method to understand emergent forms of scientific practice.`,
+  },
+];
+---
+<Page title="Organizers">
+  <h1>Organizers</h1>
+
+  <p>The workshop is organized by an interdisciplinary group of scholars and practitioners spanning HCI, software engineering, information science, STS, data science, and applied infrastructure work.</p>
+
+  {organizers.map(o => (
+    <div class="organizer">
+      <img class="organizer-photo" src={o.photo} alt={`Headshot of ${o.name}`} width="96" height="96" />
+      <div class="organizer-body">
+        <h3>{o.name}</h3>
+        <p class="affiliation">
+          {o.affiliation} ·{' '}
+          <a href={`mailto:${o.email}`}>{o.email}</a>
+          {o.website && (
+            <>
+              {' · '}
+              <a href={o.website} target="_blank" rel="noopener">website</a>
+            </>
+          )}
+        </p>
+        <p>{o.bio}</p>
+      </div>
+    </div>
+  ))}
+
+  <hr />
+  <p class="affiliation"><em>All organizers except Irene Pasquetto and Ronen Tamari have confirmed plans to attend the workshop in person. Irene and Ronen may attend, but cannot yet confirm at this time.</em></p>
+</Page>

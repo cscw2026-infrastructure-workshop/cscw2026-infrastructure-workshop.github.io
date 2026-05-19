@@ -1,0 +1,26 @@
+---
+import Nav from '../components/Nav.astro';
+import '../styles/global.css';
+const { title } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title} — Infrastructure and Collaborative Ecologies@CSCW'26</title>
+  </head>
+  <body>
+    <header><Nav /></header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <p>
+        Infrastructure and Collaborative Ecologies @ CSCW 2026 ·
+        Questions? <a href="mailto:joelchan@umd.edu">joelchan@umd.edu</a>
+      </p>
+    </footer>
+  </body>
+</html>
