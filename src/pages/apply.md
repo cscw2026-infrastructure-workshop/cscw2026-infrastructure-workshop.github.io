@@ -15,7 +15,7 @@ If you are interested in what it means to research, design, or develop both *wit
 
 ## What to submit
 
-A **two-page position paper** that addresses the themes of the workshop and provides evidence of work done on the topic. We define "position paper" broadly: provocations, experience reports, problem descriptions, and in-progress prototypes and findings are all welcome.
+A **3-5-page position paper** that addresses the themes of the workshop and provides evidence of work done on the topic. We define "position paper" broadly: provocations, experience reports, problem descriptions, and in-progress prototypes and findings are all welcome. Please include a brief bio at the end. We are not imposing any specific format, but for readability, please use 1-inch margins and at least 11-pt font.
 
 Position papers will be shared among attendees and will provide a jumping off point for discussions. We encourage authors to focus position papers on topics they would like to share and discuss with other workshop attendees relevant to the workshop themes. The following are some prompts that your position paper might respond to:
 
@@ -23,6 +23,8 @@ Position papers will be shared among attendees and will provide a jumping off po
 - How and for what specific purposes (practical and/or theoretical) have you developed or applied concepts or theories to deepen understanding about how infrastructures are constructed, maintained, or dismantled?
 - How do you identify and account for asymmetries of power among stakeholders in pre-infrastructural settings? What forms of negotiation, mediation, resistance, or accommodation emerge in your work?
 - What sociotechnical conditions (e.g., governance structures, trust relationships, maintenance culture, interoperability standards, funding, communication routines)  constitute a sufficiently developed collaborative ecology for infrastructural interventions to become viable? To what extent can infrastructures actively produce the collaborative ecologies they require, rather than leaning on pre-existing alignments?
+- Do you have a development or implementation experience to report on that can help us think through the challenges, opportunities, and methods of bridging local concerns/practices with infrastructural ambitions?
+- Have you observed that AI infrastructures such as large language models and data centers require new kinds of collaborative ecologies? Have you identified new research methods and challenges while investigating AI infrastructures? 
 
 ## Deadlines
 
