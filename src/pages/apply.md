@@ -30,7 +30,7 @@ Position papers will be shared among attendees and will provide a jumping off po
 
 - **Submission deadline:** TBD (11:59 pm Anywhere on Earth)
 - **Notification:** August 17, 2026
-- **Workshop:** TBD: October 10 or 11, 2026 (one day, in person at CSCW 2026)
+- **Workshop:** October 11, 2026 (one day, in person at CSCW 2026)
 
 ## How submissions will be reviewed
 
