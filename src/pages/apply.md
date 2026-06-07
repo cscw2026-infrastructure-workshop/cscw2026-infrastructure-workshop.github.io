@@ -5,7 +5,7 @@ title: Apply
 
 # Apply
 
-> **[Click here to apply](#)** *(submission link coming soon)*
+> **[Click here to apply](https://forms.gle/TzAkDMJ7tyRFi2YJ6)** 
 
 ## Call for participation
 
@@ -25,10 +25,11 @@ Position papers will be shared among attendees and will provide a jumping off po
 - What sociotechnical conditions (e.g., governance structures, trust relationships, maintenance culture, interoperability standards, funding, communication routines)  constitute a sufficiently developed collaborative ecology for infrastructural interventions to become viable? To what extent can infrastructures actively produce the collaborative ecologies they require, rather than leaning on pre-existing alignments?
 - Do you have a development or implementation experience to report on that can help us think through the challenges, opportunities, and methods of bridging local concerns/practices with infrastructural ambitions?
 - Have you observed that AI infrastructures such as large language models and data centers require new kinds of collaborative ecologies? Have you identified new research methods and challenges while investigating AI infrastructures? 
+- Has your research touched on political, economic, or ethical issues of infrastructuring? How do collaborative ecologies address these types of issues?
 
 ## Deadlines
 
-- **Submission deadline:** TBD (11:59 pm Anywhere on Earth)
+- **Submission deadline:** July 20th, 2026 (11:59 pm Anywhere on Earth)
 - **Notification:** August 17, 2026
 - **Workshop:** October 11, 2026 (one day, in person at CSCW 2026)
 
