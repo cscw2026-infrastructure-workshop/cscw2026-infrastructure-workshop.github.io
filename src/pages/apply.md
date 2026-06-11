@@ -9,7 +9,7 @@ title: Apply
 
 ## Call for participation
 
-We seek to bring together an **eclectic group of scholars and practitioners** who approach infrastructure from different disciplinary or professional backgrounds and positionalities. This includes — but is not limited to — researchers working in CSCW, HCI, information science, STS, software studies, data science, and team science, as well as practitioners actively building and maintaining infrastructure (metascience entrepreneurs, Fediverse and AT Protocol builders, open-source maintainers, data stewards, and others). 
+We seek to bring together an **eclectic group of scholars and practitioners** who approach infrastructure from different disciplinary or professional backgrounds and positionalities. This includes — but is not limited to — researchers working in CSCW, HCI, information science, STS, software studies, data science, and team science, as well as practitioners actively building and maintaining infrastructure (metascience entrepreneurs, Fediverse and AT Protocol builders, open-source maintainers, data stewards, AI/ML compute infrastructure maintainers, and others). 
 
 If you are interested in what it means to research, design, or develop both *within* and *for* collaborative sociotechnical ecologies — see the [Background](/background) for the full framing — we'd love to hear from you.
 

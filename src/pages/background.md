@@ -37,6 +37,6 @@ On the other hand, eversion also means **forming new relations between actors wh
 
 The foundations for this stream of research preceded SIGCHI. The past and current infrastructure corpus extends well beyond SIGCHI to other CSCW venues and to additional fields including and beyond Information Science, Science and Technology Studies (STS), Software Studies, Data Science, and Team Science, among others.
 
-This workshop welcomes individuals who may not identify as CSCW researchers or developers. This includes practitioners and developers actively working on infrastructure — including but not limited to "metascience entrepreneurs," communities of builders in the Fediverse and AT Protocol social media ecosystems, and more.
+This workshop welcomes individuals who may not identify as CSCW researchers or developers. This includes practitioners and developers actively working on infrastructure — including but not limited to "metascience entrepreneurs," communities of builders in the Fediverse and AT Protocol social media ecosystems, AI/ML compute infrastructure maintainers, and more.
 
 → See the [References](/references) page for full citations.
